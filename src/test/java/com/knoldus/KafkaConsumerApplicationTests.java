@@ -1,8 +1,8 @@
 package com.knoldus;
 
-import com.knoldus.consumer.KafkaConsumer;
-import com.knoldus.entity.User;
-import com.knoldus.producer.KafkaProducer;
+//import com.knoldus.entity.User;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.clients.producer.KafkaProducer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

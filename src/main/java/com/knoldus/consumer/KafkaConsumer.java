@@ -1,7 +1,5 @@
 package com.knoldus.consumer;
 
-import com.knoldus.entity.User;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 

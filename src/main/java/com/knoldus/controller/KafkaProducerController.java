@@ -1,8 +1,8 @@
 package com.knoldus.controller;
 
-import com.knoldus.consumer.KafkaConsumer;
-import com.knoldus.entity.User;
-import com.knoldus.producer.KafkaProducer;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.tomcat.jni.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
